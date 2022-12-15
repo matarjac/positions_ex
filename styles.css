@@ -1,0 +1,54 @@
+.boxes1 {
+  font-size: 1.6em;
+  display: inline-block;
+  background-color: red;
+  width: 4cm;
+  height: 4cm;
+}
+
+.boxes1:nth-child(2) {
+  background-color: green;
+}
+
+.primary-box {
+  font-size: 1.6em;
+  position: relative;
+  display: inline-block;
+  border: 2px dotted black;
+  width: fit-content;
+  margin-bottom: 20px;
+}
+
+/* Task 2 */
+
+.boxes2 {
+  font-size: 1.6em;
+  display: inline-block;
+  background-color: red;
+  width: 4cm;
+  height: 4cm;
+}
+
+.boxes2:nth-child(2) {
+  position: relative;
+  top: 20px;
+  left: 20px;
+  background-color: green;
+}
+
+/* Task 3 */
+
+.boxes3 {
+  font-size: 1.6em;
+  display: inline-block;
+  background-color: red;
+  width: 4cm;
+  height: 4cm;
+}
+
+.boxes3:nth-child(2) {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  background-color: green;
+}
